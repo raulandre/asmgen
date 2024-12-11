@@ -2,7 +2,7 @@ CC=gcc
 LFLAGS=-lm
 CFLAGS=-g -ggdb
 OUT=compiler
-IGNORE=-Wno-implicit-function-declaration
+IGNORE=-Wno-implicit-function-declaration -Wno-int-conversion
 
 all: stack variables commands parser lexer compile
 
