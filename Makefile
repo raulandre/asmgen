@@ -13,7 +13,7 @@ variables: variables.c
 	$(CC) -c variables.c -o variables.o
 
 commands: commands.c
-	$(CC) -c commands.c -o commands.o
+	$(CC) $(IGNORE) -c commands.c -o commands.o
 
 parser: parser.y
 	bison -d parser.y
