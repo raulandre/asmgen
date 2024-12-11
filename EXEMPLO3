@@ -1,0 +1,10 @@
+var zero = 0, j = 0, step = 2, n = 100, temp = 0;
+
+while(n > zero) do
+	temp = n % step;
+	j = j + temp;
+	n = n - 1;
+endw;
+
+print j;
+end

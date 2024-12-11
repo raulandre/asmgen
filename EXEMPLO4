@@ -1,0 +1,28 @@
+var i = 0, n = 100, d = 2, zero = 0, c = 5, u = 1, temp = 0;
+while(i < n) do
+        if((zero == (i % d)) && ((i % c) != zero)) do
+            print i;
+        endi;
+        i = i + u;
+endw;
+
+n = 5;
+i = 1;
+
+while(n > 1) do
+        i = i * n;
+        n = n - 1;
+endw;
+
+print i;
+
+n = 100;
+i = 0;
+while(n > zero) do
+	temp = n % d;
+	i = i + temp;
+	n = n - 1;
+endw;
+
+print i;
+end
